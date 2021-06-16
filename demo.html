@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Movie</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="movie"><button onclick="Play()">Play</button></div>
+
+    <script type="text/javascript" src="text_movie_maker.js"></script>
+    <script>
+        function Play() {
+            let m = new Movie(
+                "movie",
+                1000,
+                [
+                    new Frame("😎👌", ""),
+                    new Frame("😘🕶️👌", ""),
+                    new Frame("THE END", "end")
+                ]
+            );
+        }
+    </script>
+</body>
+</html>

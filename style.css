@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+    padding: 0;
+
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#movie {
+    font-size: 30px;
+}
+
+.end {
+    transition: 0.3s;
+    
+    width: 100vw;
+    height: 100vh;
+    
+    background-color: darkslategray;
+    color: white;
+    
+    font-size: 50px !important;
+    
+    text-align: center;
+    line-height: 100vh;
+}
+
+r {
+    color: red;
+}
+
+bl {
+    color: blue;
+}
