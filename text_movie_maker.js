@@ -9,10 +9,10 @@ class Frame {
 }
 
 class Movie {
-    movieElem
-    frameDuration
-    allFrames
-    activeFrame
+    movieElem;
+    frameDuration;
+    allFrames;
+    activeFrame;
     activeFrameIndex = 0;
     
     constructor(movieID, frameDuration, framesList) {
@@ -20,8 +20,6 @@ class Movie {
         this.frameDuration = frameDuration;
         this.allFrames     = framesList;
         this.activeFrame   = framesList[this.activeFrameIndex];
-
-        this.movieLoop()
     }
 
     movieLoop () {
