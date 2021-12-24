@@ -25,7 +25,8 @@ body {
     font-size: 50px !important;
     
     text-align: center;
-    line-height: 100vh;
+    display: flex;
+    align-items: center;
 }
 
 r {
