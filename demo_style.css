@@ -30,10 +30,7 @@ body {
     align-items: center;
 }
 
-r {
-    color: red;
-}
-
-bl {
-    color: blue;
+.end a,
+.end a:visited {
+    color: aliceblue;
 }
